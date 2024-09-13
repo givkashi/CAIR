@@ -9,7 +9,7 @@ Image retargeting aims to alter the size of the image with attention to the cont
 </details>
 
 <div>
-    <img src="./Block diagram.jpg" width="90%">
+    <img src="./image/Block diagram.jpg" width="90%">
 </div>
 (Block diagram of the proposed method)
 
