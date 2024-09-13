@@ -1,0 +1,6 @@
+[2024-09-13 21:18:26,043][root][INFO] - Make training model default
+[2024-09-13 21:18:26,044][saicinpainting.training.trainers.base][INFO] - BaseInpaintingTrainingModule init called
+[2024-09-13 21:18:26,044][root][INFO] - Make generator ffc_resnet
+[2024-09-13 21:18:26,195][root][INFO] - Make generator ffc_resnet
+[2024-09-13 21:18:26,347][saicinpainting.training.trainers.base][INFO] - BaseInpaintingTrainingModule init done
+[2024-09-13 21:18:27,099][saicinpainting.training.data.datasets][INFO] - Make val dataloader img_with_mask from F:\CAIR-main\test_images\input/

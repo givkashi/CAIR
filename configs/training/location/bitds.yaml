@@ -1,0 +1,5 @@
+# @package _group_
+data_root_dir: E:\data\CUB_200_2011\CUB_200_2011\train/
+out_root_dir: E:\experiments/
+tb_dir: E:\data\/tb_logs/
+pretrained_models: E:\retarget/

@@ -1,0 +1,13 @@
+indir: CAIR-main\test_images\input
+outdir: CAIR-main\test_images\output
+
+model:
+  path: CAIR-main\checkpoint # path for checkpoint folder
+  checkpoint: last.ckpt
+
+dataset:
+  kind: img_with_mask
+
+
+device: cuda
+out_key: predicted_image
