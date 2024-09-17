@@ -1,8 +1,8 @@
-indir: CAIR-main\test_images\input
-outdir: CAIR-main\test_images\output
+indir: /content/CAIR/test_images/input #input image path
+outdir: /content/CAIR/test_images/output #output path
 
 model:
-  path: CAIR-main\checkpoint # path for checkpoint folder
+  path: /content/CAIR/checkpoint # path for checkpoint folder
   checkpoint: last.ckpt
 
 dataset:
