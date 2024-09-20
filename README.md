@@ -1,7 +1,14 @@
 # Supervised Deep Learning for Content-Aware Image Retargeting with Fourier Convolutions
 
 Accepted in Multimedia Tools and Applications, Springer Journal
+
 [[Springer Link](https://link.springer.com/article/10.1007/s11042-024-18876-8)]
+[[arXiv](https://arxiv.org/abs/2306.07383)]
+[[Model](https://huggingface.co/givkashi/Image-Retargeting)]
+
+<center>
+    <a href="https://github.com/givkashi/CAIR/blob/main/CAIR_notebook.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+</center>
 
 <details>
     <summary>Abstract (click to view)</summary>
@@ -15,8 +22,46 @@ Image retargeting aims to alter the size of the image with attention to the cont
 
 ---
 
-* [Dataset](https://iutbox.iut.ac.ir/index.php/s/6bLTj25fTWdCSy4)
 
+# Environment setup
+
+Clone the repo:
+`git clone https://github.com/givkashi/CAIR.git`
+
+
+Python virtualenv:
+
+    ```
+    pip install torch==1.8.0 torchvision==0.9.0
+    
+    cd CAIR
+    pip install -r requirements.txt 
+    ```
+
+**Download pre-trained models**
+
+Put files in the checkpoint folder
+    
+```    
+!git clone https://huggingface.co/givkashi/Image-Retargeting
+```
+
+# Inference <a name="prediction"></a>
+
+Input Image
+
+```
+Modify the paths in configs/prediction/default.yaml
+```
+
+Run
+```
+cd CAIR
+!PYTHONPATH=. TORCH_HOME=$(pwd) python3 bin/predict.py
+```
+# Dataset
+
+* [Download link](https://iutbox.iut.ac.ir/index.php/s/6bLTj25fTWdCSy4)
 
 
 ## Citation
